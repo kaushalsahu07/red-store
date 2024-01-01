@@ -66,7 +66,7 @@ nav ul li a:hover {
   width: 100%;
   padding: 0 100px;
 }
-.home-titles{
+.home-titles {
   padding: 0px 10%;
 }
 .home-h1 {
@@ -114,9 +114,6 @@ nav ul li a:hover {
 /* products */
 .products {
   padding: 0 100px;
-  /* display: flex;
-  justify-content: space-between;
-  align-items: center; */
   width: 100%;
   height: 35pc;
 }
@@ -160,16 +157,13 @@ nav ul li a:hover {
   padding: 0 100px;
   width: 100%;
   height: 30pc;
-  /* border: 1px solid #000; */
   background: var(--color-mix);
 }
 .band-img img {
   width: 300px;
-  /* border: 1px solid #000; */
 }
 .band-title {
   text-align: center;
-  /* border: 1px solid #000; */
   width: 50%;
   padding: 0 2px;
 }
@@ -236,25 +230,24 @@ nav ul li a:hover {
   font-size: 18px;
 }
 /* company */
-.company{
- display: flex;
- justify-content: center;
- align-items: center;
- height: 10pc;
- /* border: 1px solid #000; */
+.company {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10pc;
 }
-.company-logo img{
+.company-logo img {
   padding: 0 10px;
   width: 200px;
 }
-.company-logo img{
+.company-logo img {
   filter: grayscale(100%);
 }
-.company-logo img:hover{
-   filter: grayscale(0);
+.company-logo img:hover {
+  filter: grayscale(0);
 }
 /* footer */
-footer{
+footer {
   background-color: var(--black-color);
   width: 100%;
   height: 13pc;
@@ -264,42 +257,39 @@ footer{
   padding: 0 100px;
 }
 /* doa */
-.doa h1{
+.doa h1 {
   color: var(--white-color);
   font-size: 15px;
   padding: 5px 0;
 }
-.doa p{
+.doa p {
   color: var(--light-color);
   font-size: 13px;
-  /* padding: px 0; */
 }
-.doa-img img{
+.doa-img img {
   width: 120px;
   padding: 10px 0;
 }
 /* info */
-.info{
+.info {
   text-align: center;
-  /* border: 1px solid var(--white-color); */
 }
-.info-img img{
+.info-img img {
   width: 30%;
 }
-.info p{
+.info p {
   color: var(--light-color);
   width: 25pc;
-  /* border: 1px solid var(--white-color); */
   text-align: center;
 }
 /* list */
-.list{
+.list {
   text-align: center;
 }
-.list-title{
+.list-title {
   color: var(--white-color);
   padding: 10px 0;
 }
-.list-name{
+.list-name {
   color: var(--light-color);
 }
