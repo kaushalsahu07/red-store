@@ -18,7 +18,7 @@ span {
   color: var(--main-color);
 }
 .header {
-  background: var(--color-mix);
+  box-shadow: 0px 0px 5px var(--black-color);
   padding: 0 100px;
 }
 nav {
@@ -68,7 +68,6 @@ nav ul li a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* padding: 40px 0; */
 }
 .products-title {
   color: var(--black-color);
@@ -115,7 +114,6 @@ footer {
 .doa p {
   color: var(--light-color);
   font-size: 13px;
-  /* padding: px 0; */
 }
 .doa-img img {
   width: 120px;
@@ -124,7 +122,6 @@ footer {
 /* info */
 .info {
   text-align: center;
-  /* border: 1px solid var(--white-color); */
 }
 .info-img img {
   width: 30%;
@@ -132,7 +129,6 @@ footer {
 .info p {
   color: var(--light-color);
   width: 25pc;
-  /* border: 1px solid var(--white-color); */
   text-align: center;
 }
 /* list */

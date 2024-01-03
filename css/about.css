@@ -18,8 +18,8 @@ span {
   color: var(--main-color);
 }
 .header {
-  background: var(--color-mix);
   padding: 0 100px;
+  box-shadow: 0px 0px 5px var(--black-color);
 }
 nav {
   height: 90px;
@@ -60,8 +60,8 @@ nav ul li a:hover {
 /* about */
 .about {
     padding: 50px 0;
-}
-.about h1{
+  }
+  .about h1{
     text-align: center;
     font-weight: 500;
     color: var(--black-color);
@@ -69,19 +69,18 @@ nav ul li a:hover {
     text-decoration-color: var(--main-color);
     text-underline-offset: 0.5em;
     transition: all 0.5s;
-}
-.about-section{
+  }
+  .about-section{
     display: flex;
     justify-content: center;
     align-items: center;
-}
-.about-img{
+  }
+  .about-img{
     flex: 50%;
     height: 80vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 30%;
 }
 .about-img img{
     width: 40%;
@@ -92,12 +91,12 @@ nav ul li a:hover {
     text-align: center;
 }
 .about-title{
-    font-size: 25px;
+    font-size: 30px;
     padding: 10px 0;
 }
 .about-text{
     font-size: 15px;
-    padding: 10px 0;
+    padding: 15px 0;
     color: var(--light-color);
 }
 /* footer */
