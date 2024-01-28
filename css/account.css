@@ -13,6 +13,7 @@
   --main-color: #ff523b;
   --color-mix: #ffd6d6;
   --white-color: #fff;
+  --color-mix: radial-gradient(#fff, #ffd6d6);
 }
 span {
   color: var(--main-color);
@@ -56,4 +57,143 @@ nav ul li a:hover {
   text-decoration: underline;
   text-underline-offset: 0.6em;
   transition: all 0.5s;
+}
+/* main */
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background: var(--color-mix);
+    padding: 0 100px;
+}
+.img img{
+   width: 200px - 400px;
+}
+/* login */
+form {
+  width: 350px;
+  height: 450px;
+  background: var(--white-color);
+  border: 1px solid #ccc;
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  text-align: center;
+}
+
+.display{
+  display: flex;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  overflow: hidden;
+}
+.form-login{
+  padding: 0 22px;
+}
+.form-singup{
+  padding: 0 20px;
+}
+
+.log-sing{
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  height: auto;
+} 
+.btn{
+  cursor: pointer;
+  color: var(--black-color);
+  font-size: 20px;
+  margin: 40px 0;
+}
+.form-active{
+  text-decoration: underline;
+  text-underline-offset: 0.6em;
+  text-decoration-color: var(--main-color);
+}
+
+.username,
+.email,
+.password {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 300px;
+  height: 40px;
+  display: flex;
+  padding: 5px;
+  justify-content: center;
+  border: 1px solid var(--black-color);
+  border-radius: 20px;
+}
+
+.username-icon,
+.email-icon,
+.password-icon {
+  width: 35px;
+  display: grid;
+  place-content: center;
+  padding-right: 10px;
+  color: var(--main-color);
+}
+
+.username input,
+.email input,
+.password input {
+  width: 240px;
+  border: none;
+  background: none;
+  outline: none;
+  color: var(--black-color);
+}
+input::placeholder {
+  color: var(--black-color);
+}
+.section {
+  color: var(--black-color);
+  font-size: 12px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+}
+.section input {
+  margin-right: 3px;
+  accent-color: var(--black-color);
+  width: 12px;
+}
+.section a {
+  color: var(--black-color);
+  margin-left: 65px;
+  text-decoration: none;
+}
+.section a:hover {
+  text-decoration: underline;
+}
+button {
+  width: 75%;
+  background: var(--main-color);
+  height: 40px;
+  color: var(--white-color);
+  border-radius: 20px;
+  margin-top: 20px;
+  cursor: pointer;
+  font-weight: 600;
+  border: none;
+}
+.sign {
+  font-size: 14px;
+  margin-top: 25px;
+  color: #fff;
+}
+.sign a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+}
+.sign a:hover {
+  text-decoration: underline;
 }
