@@ -96,7 +96,7 @@ form {
   transition: all 0.3s;
   padding: 0 22px;
 }
-.form-singup {
+.form-signin {
   transition: all 0.3s;
   padding: 0 20px;
 }
@@ -121,7 +121,7 @@ form {
   width: 75px;
   height: 5px;
   overflow: hidden;
-  margin: 0 75px;
+  margin: 0 80px;
   background-color: var(--main-color);
 }
 
@@ -184,7 +184,7 @@ input::placeholder {
   text-decoration: underline;
 }
 button {
-  width: 75%;
+  width: 100%;
   background: var(--main-color);
   height: 40px;
   color: var(--white-color);
