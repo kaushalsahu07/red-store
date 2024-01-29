@@ -59,22 +59,25 @@ nav ul li a:hover {
   transition: all 0.5s;
 }
 /* main */
-.main{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    width: 100%;
-    background: var(--color-mix);
-    padding: 0 100px;
+.main {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background: var(--color-mix);
+  padding: 0 100px;
 }
-.img img{
-   width: 200px - 400px;
+.img {
+  /* padding: 0 20%; */
+}
+.img img {
+  width: 450px;
 }
 /* login */
 form {
   width: 350px;
-  height: 450px;
+  height: 420px;
   background: var(--white-color);
   border: 1px solid #ccc;
   backdrop-filter: blur(10px);
@@ -82,37 +85,44 @@ form {
   text-align: center;
 }
 
-.display{
+.display {
   display: flex;
   width: 100%;
   height: auto;
   text-align: center;
   overflow: hidden;
 }
-.form-login{
+.form-login {
+  transition: all 0.3s;
   padding: 0 22px;
 }
-.form-singup{
+.form-singup {
+  transition: all 0.3s;
   padding: 0 20px;
 }
 
-.log-sing{
+.log-sing {
+  padding: 40px 0;
   text-align: center;
-  display: flex;
-  justify-content: space-evenly;
   width: 100%;
   height: auto;
-} 
-.btn{
+}
+.btn {
   cursor: pointer;
+  padding: 0 20px;
   color: var(--black-color);
   font-size: 20px;
-  margin: 40px 0;
 }
-.form-active{
-  text-decoration: underline;
-  text-underline-offset: 0.6em;
-  text-decoration-color: var(--main-color);
+.main-line {
+  width: 100%;
+  height: auto;
+}
+.line {
+  width: 75px;
+  height: 5px;
+  overflow: hidden;
+  margin: 0 75px;
+  background-color: var(--main-color);
 }
 
 .username,
@@ -196,4 +206,52 @@ button {
 }
 .sign a:hover {
   text-decoration: underline;
+}
+/* footer */
+footer {
+  background-color: var(--black-color);
+  width: 100%;
+  height: 13pc;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 100px;
+}
+/* doa */
+.doa h1 {
+  color: var(--white-color);
+  font-size: 15px;
+  padding: 5px 0;
+}
+.doa p {
+  color: var(--light-color);
+  font-size: 13px;
+  /* padding: px 0; */
+}
+.doa-img img {
+  width: 120px;
+  padding: 10px 0;
+}
+/* info */
+.info {
+  text-align: center;
+}
+.info-img img {
+  width: 30%;
+}
+.info p {
+  color: var(--light-color);
+  width: 25pc;
+  text-align: center;
+}
+/* list */
+.list {
+  text-align: center;
+}
+.list-title {
+  color: var(--white-color);
+  padding: 10px 0;
+}
+.list-name {
+  color: var(--light-color);
 }
