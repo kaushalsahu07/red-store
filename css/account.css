@@ -68,9 +68,6 @@ nav ul li a:hover {
   background: var(--color-mix);
   padding: 0 100px;
 }
-.img {
-  /* padding: 0 20%; */
-}
 .img img {
   width: 450px;
 }
