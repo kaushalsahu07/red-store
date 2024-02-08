@@ -20,6 +20,7 @@ span {
 .header {
   background: var(--color-mix);
   padding: 0 100px;
+  height: auto;
 }
 nav {
   height: 90px;
@@ -60,11 +61,11 @@ nav ul li a:hover {
 /* home */
 .home {
   display: flex;
-  height: 38pc;
+  height: auto;
   justify-content: center;
   align-items: center;
   width: 100%;
-  padding: 0 100px;
+  padding: 50px 100px;
 }
 .home-titles {
   padding: 0px 10%;
@@ -77,10 +78,10 @@ nav ul li a:hover {
   margin-top: 10px;
   font-size: 15px;
 }
-.home-bts {
+.home-btn {
   margin-top: 30px;
 }
-.home-bts a {
+.home-btn a {
   padding: 12px 25px;
   border-radius: 40px;
   font-size: 15px;
@@ -98,7 +99,7 @@ nav ul li a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 28pc;
+  height: auto;
   flex-wrap: wrap;
 }
 .img-category {
@@ -115,7 +116,7 @@ nav ul li a:hover {
 .products {
   padding: 0 100px;
   width: 100%;
-  height: 35pc;
+  height: auto;
 }
 .products-list {
   flex-wrap: wrap;
@@ -134,7 +135,7 @@ nav ul li a:hover {
 }
 .products-box {
   text-align: center;
-  padding: 0 20px;
+  padding: 10px 20px;
 }
 .products-box:hover {
   transform: translateY(-10px);
@@ -292,4 +293,17 @@ footer {
 }
 .list-name {
   color: var(--light-color);
+}
+@media (max-width : 1200px) {
+  .home{
+    display: inline;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 50px;
+  }
+  .home-h2{
+    margin-left: auto;
+    margin-right: auto;
+  }
 }

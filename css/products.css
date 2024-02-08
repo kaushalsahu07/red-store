@@ -79,6 +79,7 @@ nav ul li a:hover {
   text-decoration-color: #ff523b;
 }
 .products-box {
+  color: var(--black-color);
   text-align: center;
   padding: 40px 20px;
 }
