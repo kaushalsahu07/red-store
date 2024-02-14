@@ -58,3 +58,30 @@ nav ul li a:hover {
   text-underline-offset: 0.6em;
   transition: all 0.5s;
 }
+/*  */
+.main-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 100px;
+}
+.main-img{
+  width: 500px;
+  border: 1px solid #000;
+  text-align: center;
+  margin: 0 30px 0 0;
+}
+.main-img-box img{
+  width: 420px;
+  padding: 0 10px;
+}
+.main-img-product{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-img-product img{
+  width: 100px;
+  padding: 8px 5px;
+  border-radius: 10px;
+}
