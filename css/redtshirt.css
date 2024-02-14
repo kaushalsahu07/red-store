@@ -85,3 +85,26 @@ nav ul li a:hover {
   padding: 8px 5px;
   border-radius: 10px;
 }
+/*  */
+.price{
+  padding: 10px 0;
+  color: var(--light-color);
+  font-weight: 800;
+}
+.select{
+  border-color: var(--white-color);
+  padding: 8px;
+  font-size: 12px;
+  border: 1px solid var(--main-color);
+  margin: 10px 0;
+}
+.number{
+  width: 50px;
+  padding: 5px;
+}
+button{
+  width: 150px;
+  padding: 5px;
+  border-radius: 20px;
+  outline: none;
+}
