@@ -153,11 +153,12 @@ nav ul li a:hover {
 /* Band */
 .band {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  padding: 0 100px;
+  padding: 70px 100px;
   width: 100%;
-  height: 30pc;
+  height: auto;
   background: var(--color-mix);
 }
 .band-img img {
@@ -192,17 +193,18 @@ nav ul li a:hover {
 /* review */
 .review {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  padding: 0 100px;
+  padding: 30px 100px;
   text-align: center;
   width: 100%;
-  height: 42pc;
+  height: auto;
 }
 .review-box {
   width: 20pc;
   height: 32pc;
-  margin-left: 30px;
+  margin: 10px 20px;
   border-radius: 20px;
   border: 1px solid var(--black-color);
 }
@@ -233,9 +235,12 @@ nav ul li a:hover {
 /* company */
 .company {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  height: 10pc;
+  height: auto;
+  padding: 0 100px;
+  margin: 15px 0px;
 }
 .company-logo img {
   padding: 0 10px;
@@ -303,7 +308,27 @@ footer {
     padding: 0px 50px;
   }
   .home-h2{
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
   }
+  /* band */
+  .band-title{
+    margin: 10px 0;
+  }
+  /* footer */
+  footer{
+    text-align: center;   
+    height: auto;
+    display: grid;
+    place-content: center;
+    gap: 20px;
+    padding: 20px 0;
+  } 
+  .info p{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
 }
