@@ -30,7 +30,7 @@ nav {
   align-items: center;
   padding: 0 50px;
 }
-nav .nav-menu{
+nav .nav-menu {
   display: none;
 }
 nav .logo {
@@ -62,55 +62,55 @@ nav ul li a:hover {
   transition: all 0.5s;
 }
 /*  */
-.main-box{
+.main-box {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 50px 100px;
 }
-.main-img{
+.main-img {
   width: 500px;
   /* border: 1px solid #000; */
   text-align: center;
   margin: 0 30px 0 0;
 }
-.main-img-box img{
+.main-img-box img {
   width: 420px;
   padding: 0 10px;
 }
-.main-img-product{
+.main-img-product {
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
-.main-img-product img{
+.main-img-product img {
   width: 100px;
   padding: 8px 5px;
   border-radius: 10px;
 }
 /*  */
-.price{
+.price {
   padding: 10px 0;
   color: var(--light-color);
   font-weight: 800;
 }
-.select{
+.select {
   border-color: var(--white-color);
   padding: 8px;
   font-size: 12px;
   margin: 10px 0;
   outline: 1px solid var(--main-color);
 }
-.number{
+.number {
   width: 50px;
   padding: 5px;
   outline: 1px solid var(--main-color);
   border: none;
 }
-.size-button{
+.size-button {
   padding: 10px 0;
 }
-button{
+button {
   width: 150px;
   padding: 8px;
   border-radius: 20px;
@@ -120,14 +120,14 @@ button{
   color: var(--white-color);
   cursor: pointer;
 }
-.main-info{
+.main-info {
   width: 70%;
   margin: 15px 0;
 }
-.main-info p{
+.main-info p {
   color: var(--light-color);
   font-size: 15px;
-  padding: 10px 0;  
+  padding: 10px 0;
 }
 /* products */
 .products {
@@ -214,24 +214,40 @@ footer {
 .list-name {
   color: var(--light-color);
 }
-@media (max-width : 1080px){
-  .header{
+@media (max-width: 1200px) {
+  /* footer */
+  footer {
+    text-align: center;
+    height: auto;
+    display: grid;
+    place-content: center;
+    gap: 20px;
+    padding: 20px 0;
+  }
+  .info p {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media (max-width: 1080px) {
+  .header {
     padding: 0 50px;
   }
-  nav{
+  nav {
     /* border: 1px solid #000; */
     padding: 0;
     z-index: 100;
   }
-  nav .nav-icons{
+  nav .nav-icons {
     display: flex;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
   }
-  nav .nav-menu{
+  nav .nav-menu {
     display: block;
   }
-  nav .nav-menu i{
+  nav .nav-menu i {
     font-size: 20px;
     right: 50px;
     top: 35px;
@@ -247,10 +263,10 @@ footer {
     top: 90px;
     left: -70pc;
     z-index: 10;
-    transition: all 0.3s ease; 
+    transition: all 0.3s ease;
   }
-   nav ul li a{
-     color: #fff;
-     font-size: 20px;
-   }
+  nav ul li a {
+    color: #fff;
+    font-size: 20px;
+  }
 }
