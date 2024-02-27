@@ -34,6 +34,3 @@ Open the \`index.html\` file in your web browser to view the Red Store website.
 
 Contributions are welcome! If you'd like to contribute to Red Store, please fork this repository and submit a pull request.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
