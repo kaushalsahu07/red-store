@@ -87,6 +87,7 @@ nav ul li a:hover {
   width: 100px;
   padding: 8px 5px;
   border-radius: 10px;
+  cursor: pointer;
 }
 /*  */
 .price {

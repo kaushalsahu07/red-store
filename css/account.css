@@ -311,28 +311,38 @@ footer {
     font-size: 20px;
   }
   /* main */
-  .main{
+  .main {
     display: grid;
     place-content: center;
     padding: 30pc 0;
   }
-  .img{
+  .img {
     padding: 20px 0;
   }
-  .img img{
+  .img img {
     width: 25pc;
   }
 }
-@media (max-width : 760px) {
-  .img img{
+@media (max-width: 760px) {
+  .img img {
     width: 22pc;
   }
-  form{
-  width: 320px;
-  height: 420px;
+  form {
+    width: 320px;
+    height: 420px;
   }
-  .line{
+  .line {
     width: 80px;
     margin: 0 62px;
+  }
+  .username,
+  .email,
+  .password {
+    width: 280px;
+  }
+  .username-icon,
+  .email-icon,
+  .password-icon {
+   padding-left: 15px;
   }
 }
