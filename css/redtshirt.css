@@ -66,7 +66,7 @@ nav ul li a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 50px 100px;
+  margin: 50px 100px;
 }
 .main-img {
   width: 500px;
@@ -100,6 +100,7 @@ nav ul li a:hover {
   padding: 8px;
   font-size: 12px;
   margin: 10px 0;
+  background-color: var(--white-color);
   outline: 1px solid var(--main-color);
 }
 .number {
@@ -122,7 +123,7 @@ button {
   cursor: pointer;
 }
 .main-info {
-  width: 70%;
+  width: 35pc;
   margin: 15px 0;
 }
 .main-info p {
@@ -269,5 +270,49 @@ footer {
   nav ul li a {
     color: #fff;
     font-size: 20px;
+  }
+  .main-box {
+    flex-wrap: wrap;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .main-img-product {
+    justify-content: center;
+  }
+  .main-img-product img {
+    /* width: 20%; */
+    padding: 5px 5px;
+  }
+  .main-title {
+    margin-top: 20px;
+  }
+  .main-info {
+    width: 30pc;
+  }
+}
+@media (max-width: 600px) {
+  nav ul li a {
+    font-size: 17px;
+  }
+  .products-title{
+    font-size: 20px;
+  }
+  .main-img-box img {
+    width: 90%;
+  }
+  .main-img-product {
+    justify-content: center;
+  }
+  .main-img-product img {
+    width: 20%;
+    padding: 5px 5px;
+  }
+  .main-title {
+    font-size: 13px;
+    padding: 10px 50px;
+  }
+  .main-info {
+    width: auto;
   }
 }

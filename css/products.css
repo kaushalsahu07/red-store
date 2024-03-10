@@ -202,3 +202,8 @@ footer {
     font-size: 20px;
   }
 }
+@media (max-width: 600px) {
+  nav ul li a {
+    font-size: 17px;
+  }
+}

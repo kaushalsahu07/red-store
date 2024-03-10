@@ -328,7 +328,7 @@ footer {
     width: 22pc;
   }
   form {
-    width: 320px;
+    width: 330px;
     height: 420px;
   }
   .line {
@@ -344,5 +344,13 @@ footer {
   .email-icon,
   .password-icon {
    padding-left: 15px;
+  }
+  .form-signin{
+    transform: translateX(400px);
+  }
+}
+@media (max-width: 600px) {
+  nav ul li a {
+    font-size: 17px;
   }
 }

@@ -177,7 +177,6 @@ nav ul li a:hover {
 }
 .band-info {
   width: 90%;
-  /* border: 1px solid var(--black-color); */
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -376,6 +375,45 @@ footer {
      color: #fff;
      font-size: 20px;
    }
-   
-  
+   .img-category{
+    padding: 20px 50px;
+   }
+   .img-category img{
+    width: 15pc;
+   }
+  }
+  @media (max-width: 600px) {
+    nav ul li a {
+      font-size: 17px;
+    }
+    .home-titles{
+      padding: 0;
+    }
+  .home-h1{
+    font-size: 35px;
+  }
+  .home-img{
+    margin-top: 30px;
+  }
+  .home-img img{
+    width: 100%;
+  }
+  .products-title{
+    font-size: 20px;
+  }
+  .band{
+    padding: 20px 0px;
+  }
+  .band-name{
+    font-size: 25px;
+  }
+  .band-title{
+    width: 80%;
+  }
+  .band-info{
+    width: 100%;
+  }
+  .review{
+    padding: 20px 30px;
+  }
 }
