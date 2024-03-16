@@ -144,6 +144,9 @@ nav ul li a:hover {
   transform: translateY(-10px);
   transition: all 0.5s;
 }
+.product-info{
+  color: var(--black-color);
+}
 .products-img img {
   border-radius: 10px;
   width: 220px;
