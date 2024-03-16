@@ -323,7 +323,10 @@ footer {
     width: 25pc;
   }
 }
-@media (max-width: 760px) {
+@media (max-width: 600px) {
+  nav ul li a {
+    font-size: 17px;
+  }
   .img img {
     width: 22pc;
   }
@@ -333,7 +336,7 @@ footer {
   }
   .line {
     width: 80px;
-    margin: 0 62px;
+    margin: 0 67.5px;
   }
   .username,
   .email,
@@ -346,11 +349,6 @@ footer {
    padding-left: 15px;
   }
   .form-signin{
-    transform: translateX(400px);
-  }
-}
-@media (max-width: 600px) {
-  nav ul li a {
-    font-size: 17px;
+    margin: 0 20px;
   }
 }

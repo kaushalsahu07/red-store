@@ -8,6 +8,7 @@ Red Store is a simple e-commerce website template built with HTML, CSS, and Java
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
+- [License](#license)
 
 ## Features
 
