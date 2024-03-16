@@ -18,6 +18,6 @@ navMenu.onclick = function () {
 
 //img
 let proImg = document.querySelector("#product-img");
-function galleryImg(img){
+function galleryImg(img) {
   proImg.src = img;
 }
