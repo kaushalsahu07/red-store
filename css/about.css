@@ -205,9 +205,21 @@ footer {
     color: #fff;
     font-size: 20px;
   }
+  .about-section{
+    display: inline-block;
+  }
+  .about-img{
+    height: 35vh;
+  }
+  .about-img img{
+    width: 25%;
+  }
 }
 @media (max-width: 600px) {
   nav ul li a {
     font-size: 17px;
+  }
+  .about-img img{
+    width: 30%;
   }
 }
