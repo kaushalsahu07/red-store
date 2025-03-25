@@ -32,3 +32,6 @@ Open the \`index.html\` file in your web browser to view the Red Store website.
 
 Contributions are welcome! If you'd like to contribute to Red Store, please fork this repository and submit a pull request.
 
+## ScreenShot
+![project-5](https://github.com/user-attachments/assets/ba4987b6-12ef-474f-8817-ecbc138f00ea)
+
