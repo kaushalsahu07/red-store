@@ -36,7 +36,7 @@ Contributions are welcome! If you'd like to contribute to Red Store, please fork
 ![project-5](https://github.com/user-attachments/assets/ba4987b6-12ef-474f-8817-ecbc138f00ea)
 
 ## Contact
-For any inquiries, reach out at [kaushal.r.sahu@outlook.com].<br>
+For any inquiries, reach out at [kaushalsahu.me@gmail.com].<br>
 GitHub: [@kaushalsahu07](https://github.com/kaushalsahu07).<br>
 Linkedin: [@kaushalsahu07](www.linkedin.com/in/kaushalsahu07).<br>
 Instagram: [@cd.kaushal](https://www.instagram.com/cd.kaushal?igsh=cTVram1ia3Vvamxz).<br>
